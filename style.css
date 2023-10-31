@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* mobile first */
+header{
+    background-color: rgb(14, 110, 255);
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    margin-bottom:50px;
+}
+section{
+    background-color: darkorchid;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container2{
+    width: 90%;
+    min-height: 300px;
+    margin: 0 auto;
+   
+}
+.row{
+    background-color:aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    min-height: 300px;
+    width: 100%;
+    margin-top:20px;
+    border-radius: 5%;
+    padding:30px;
+
+}
+.row2{
+   
+    /*display: flex;
+    flex-direction: column;
+    justify-content: space-around;*/
+    text-align: center;
+    min-height: 300px;
+    width: 100%;
+    margin-top:20px;
+    border-radius: 5%;
+    padding:30px;
+
+}
+.row3{
+    background-color:white;
+   /* display: flex;
+    flex-direction: column;
+    justify-content: space-around;*/
+    text-align: center;
+    min-height: 300px;
+    width: 100%;
+    margin-top:20px;
+    border-radius: 5%;
+    padding:30px;
+
+}
+h1{
+    color:rgb(14, 110, 255);
+    font-size: 25px;
+}
+#strategic-planning{
+    color: white;
+}
+p{
+    color:rgb(32, 29, 29);
+}
+#p2{
+    color: white;
+}
+
+span{
+    color:rgb(32, 29, 29);
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin-bottom:30px;
+}
+
+#phone{
+    width:80%;
+    margin-bottom:-30px;
+}
+
+#icons{
+    
+    font-size: 70px;
+}
+#arrow{
+    background-color: violet;
+    padding: 20px;
+    border-radius: 50%;
+
+}
+.button{
+    background-color:rgb(14, 110, 255) ;
+    color: white;
+    width: 75%;
+    padding:10px;
+    border-radius: 20px;
+}
+
+.img{
+    width: 90%;
+}
+#planning2{
+    width: 100%;
+}
+
+
+/* tablet version */
+@media all and (min-width:481px) {
+
+    .container {
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+   /* .row {
+        width: calc(100% / 3);
+      
+    }
+    
+    #row-smartphone{
+        width: calc((100% / 3) *2);
+        flex-grow: 1;
+    }*/
+    .row{
+        width: 31%;
+        margin:5px;
+        align-items: flex-start;
+        text-align: center;
+    }
+
+    #row-smartphone{
+        width: 62%;
+    }
+
+    
+}
+
+/* desktop version */
+@media all and (min-width:1000px) {
+
+   
+
+    .container{
+        width: 70%;
+    }
+
+    .row{
+        min-height: 200px;
+        
+    }
+
+    .container2{
+        display: flex;
+
+    }
+}
